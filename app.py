@@ -10,6 +10,11 @@ def subtract(x, y):
 def multiply(x, y):
     return x * y
 
+def divide(x, y):
+    if y == 0:
+        return "Error: Division by zero"
+    return x / y
+
 if len(sys.argv) != 5:
     print("Usage: python app.py <operator> <num1> <num2>")
     print("<operator>: add, subtract, or multiply")
