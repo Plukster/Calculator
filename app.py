@@ -15,7 +15,7 @@ def divide(x, y):
         return "Error: Division by zero"
     return x / y
 
-if len(sys.argv) != 5:
+if len(sys.argv) != 4:
     print("Usage: python app.py <operator> <num1> <num2>")
     print("<operator>: add, subtract, or multiply")
     sys.exit(1)
